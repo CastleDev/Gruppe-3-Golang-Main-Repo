@@ -3,7 +3,7 @@ package log
 import "math"
 import "fmt"
 
-func Log2(x, float64)
+func log(x, float64)
 {
 	x = float64(2)
 	return x

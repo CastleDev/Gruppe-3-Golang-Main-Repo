@@ -7,7 +7,7 @@ func main()	{
 
 	
 	fmt.Println("test")
-			
+	log.log(2)
 	
 	
 	
