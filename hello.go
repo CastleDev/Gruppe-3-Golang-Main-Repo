@@ -7,6 +7,7 @@ func main() {
 	fmt.Println("Hello, ??")
 	fmt.Println("Heisann")
 	log2()
+	fmt.Println("heisann paa deisann")
 }
 
 func log2() {
