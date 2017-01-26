@@ -1,7 +1,14 @@
-package log
+package main
 
-func Main()
-{
-	log()	
-	fmt.println(log)
+import "fmt"
+import "log"
+
+func main()	{
+
+	
+	fmt.Println("test")
+	fmt.Println()
+	
+	
+	
 }
