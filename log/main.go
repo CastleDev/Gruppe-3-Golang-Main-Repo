@@ -9,6 +9,7 @@ func main()	{
 	fmt.Println("test")
 	//log.PrintTest()
 	log.Log2(2)
+	
 
 
 
