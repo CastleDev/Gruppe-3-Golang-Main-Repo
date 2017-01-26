@@ -1,13 +1,14 @@
 package main
 
 import "fmt"
+import "./log"
 
 
 func main()	{
 
 	
 	fmt.Println("test")
-	log.log(2)
+	log.print()
 	
 	
 	

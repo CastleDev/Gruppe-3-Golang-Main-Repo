@@ -1,4 +1,4 @@
-package log
+package logpckg
 
 import "math"
 import "fmt"
