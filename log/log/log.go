@@ -1,17 +1,12 @@
 package log
 
 import "math"
-import "fmt"
 
 
-func Log2(x float64)  {
+func Log2(x float64) float64  {
 
-fmt.Println(math.Log2(x))
-return
+var answer float64 = math.Log2(x)
+
+return answer
 
 }
-
-//func PrintTest() {
-
-	//fmt.Println("hello from the other side")
-//}
