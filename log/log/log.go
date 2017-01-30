@@ -3,17 +3,19 @@ package log
 import "math"
 
 
-func Log2(x float64) float64  {
+func Log2(x float64) int  {
 
-var answer float64 = math.Log2(x)
+answer := math.Log2(x)
+var intAnswer int = int(answer)
 
-return answer
+return intAnswer
 
 }
 
-func Log10(x float64) float64 {
+func Log10(x float64) int {
 
   answer := math.Log10(x)
+  var intAnswer int = int(answer)
 
-  return answer
+  return intAnswer
 }
