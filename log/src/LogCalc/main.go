@@ -32,7 +32,7 @@ func main()	{
 	}
 	if inputVal == 10 {
 			fmt.Println("The answer from log10 from value:", logVal, "is", log.Log10(floatVal))
-
+// test
 	}
 	var exit string
 		 fmt.Println("Exit the app? Type yes to exit, no to keep caculating ")

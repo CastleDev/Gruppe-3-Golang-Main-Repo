@@ -1,7 +1,7 @@
 package log
 
 import "math"
-
+//imports math
 
 func Log2(x float64) float64  {
 
