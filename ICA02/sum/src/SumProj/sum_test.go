@@ -96,3 +96,20 @@ func TestSumFloat64(t *testing.T) {
 		}
 	}
 }
+
+var sum_input = []struct {
+	inp1       int64
+	inp2       int64
+	expectedInp int64
+}{
+	{1, 2, 3},
+	{12000, 10000, 22000},
+	{9223372036854775807, 1, 9223372036854775807},
+}
+func TestSumInt64(t *testing.T) {
+	for _, v := range sum_tests_int64 {
+		if val := addition.SumInt64(v.inp1, v.inp2); val != v.expectedInp {
+			t.Errorf("Sum(%d, %d) returned %d, expected %d", v.inp1, v.inp2, val, v.expectedInp)
+		}
+	}
+}
