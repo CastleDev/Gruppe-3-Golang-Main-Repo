@@ -3,10 +3,10 @@ package main
 import "./bring"
 
 func main() {
-    //Boring01()
-    Test()
+	//Boring01()
+	Test()
 }
 
 func Test() {
-  boring.Boring01("Another one bites the dust:")
+	boring.Boring01("Another one bites the dust:")
 }
